@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-usinp = "lux_v.txt"
+usinp = "20170110\V.csv"
 len_usinp = len(str(usinp))
 #print type(len_usinp)
 usinp_e = usinp[0:-4] + 'e' + usinp[-4:len_usinp]
@@ -16,7 +16,7 @@ s = open(usinp).read()#прочитали исходный файл
 #s = s.replace('mV', '"mV"')#удаляем кавычки
 #s = s.replace('    ', '\t')#меняем запятую на точкуу
 s = s.replace(',', '.')#меняем запятую на точкуу
-#s = s.replace('\n', ', ')#замена новой строки на запятую
+s = s.replace('\n', ', ')#замена новой строки на запятую
 #s = s.replace(',', '\t')#замена запятой символом табуляции
 #s = s.replace('.', ',')#замена точки заятой
 

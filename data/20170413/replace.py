@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-usinp = "V_list.csv"
+usinp = "I_empty_list.csv"
 #usinp = (raw_input('-> '))#ввод имени, открываемого файла
 #print "user input: ", type(usinp)
 len_usinp = len(str(usinp))
